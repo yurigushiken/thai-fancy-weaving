@@ -74,13 +74,13 @@ const i18n = {
     location_note: 'Note: outbound routes to Suvarnabhumi and Laem Chabang can bypass central Bangkok via the Kanchanaphisek (Southern Ring Road).',
     contact_title: 'Contact',
     contact_sub: 'For documentation requests, site visits, or further information, please contact the owner directly.',
-    contact_note: 'Please state that you are enquiring about the Thai Fancy Weaving factory in Samut Sakhon.',
+    subject_label: 'Suggested subject line:',
+    subject_text: 'Thai Fancy Weaving Factory, Samut Sakhon – Enquiry',
     contact_commission_note: 'Commission: 3% of sale price, paid by seller. Transfer fees paid by seller at Land Department appraisal rate.',
     buyer_notes_title: 'Buyer Notes',
-    buyer_note_1: 'Buyers are advised to independently verify title status, encumbrances, building permits, and operational licences with the Land Department and relevant government authorities prior to purchase.',
-    buyer_note_2: 'The bank valuation (June 2021) was commissioned for credit assessment purposes. Buyers requiring a current appraisal should commission an independent one.',
+    buyer_note_2: 'The bank valuation (June 2021) was commissioned for credit assessment purposes.',
     buyer_note_3: 'Distances and exchange rates are approximate. Exchange rates are based on May 2026 rates and are subject to change.',
-    buyer_note_4: 'Documentation including the title deed (Chanote), bank valuation report, sale terms sheet, and factory floor plan are available upon written request.',
+    buyer_note_4: 'Documentation including the title deed (Chanote), bank valuation report, sale terms sheet, and factory floor plan are available upon request.',
     footer_copyright: '© 2026 Thai Fancy Weaving Co., Ltd. Property listing.'
   },
 
@@ -157,13 +157,13 @@ const i18n = {
     location_note: 'หมายเหตุ: เส้นทางไปสุวรรณภูมิและแหลมฉบังสามารถหลีกเลี่ยงกรุงเทพฯ ได้ผ่านถนนวงแหวนกาญจนาภิเษก (ทิศใต้)',
     contact_title: 'ติดต่อ',
     contact_sub: 'สำหรับการขอเอกสาร นัดชมสถานที่ หรือสอบถามข้อมูลเพิ่มเติม กรุณาติดต่อเจ้าของโดยตรง',
-    contact_note: 'กรุณาระบุว่าสนใจโรงงานไทยแฟนซีการทอ จังหวัดสมุทรสาคร',
+    subject_label: 'หัวข้ออีเมลที่แนะนำ:',
+    subject_text: 'สอบถาม – โรงงานไทยแฟนซีการทอ จังหวัดสมุทรสาคร',
     contact_commission_note: 'ค่านายหน้า: 3% ของราคาขาย (ผู้ขายชำระ) ค่าโอนคิดตามราคาประเมินกรมที่ดิน',
     buyer_notes_title: 'หมายเหตุสำหรับผู้ซื้อ',
-    buyer_note_1: 'ผู้ซื้อควรตรวจสอบสถานะโฉนด ภาระผูกพัน ใบอนุญาตก่อสร้าง และใบอนุญาตประกอบกิจการกับกรมที่ดินและหน่วยงานที่เกี่ยวข้องอย่างอิสระก่อนการซื้อ',
-    buyer_note_2: 'การประเมินมูลค่าของธนาคาร (มิ.ย. 2564) ดำเนินการเพื่อวัตถุประสงค์การพิจารณาสินเชื่อ ผู้ซื้อที่ต้องการการประเมินปัจจุบันควรว่าจ้างผู้ประเมินอิสระ',
+    buyer_note_2: 'การประเมินมูลค่าของธนาคาร (มิ.ย. 2564) ดำเนินการเพื่อวัตถุประสงค์การพิจารณาสินเชื่อ',
     buyer_note_3: 'ระยะทางและอัตราแลกเปลี่ยนเป็นค่าประมาณ อัตราแลกเปลี่ยนอ้างอิงจากเดือนพฤษภาคม 2569 และอาจเปลี่ยนแปลงได้',
-    buyer_note_4: 'เอกสารรวมถึงโฉนดที่ดิน รายงานการประเมิน เงื่อนไขการขาย และแผนผังโรงงาน พร้อมให้ตรวจสอบตามคำขอเป็นลายลักษณ์อักษร',
+    buyer_note_4: 'เอกสารรวมถึงโฉนดที่ดิน รายงานการประเมิน เงื่อนไขการขาย และแผนผังโรงงาน พร้อมให้ตรวจสอบตามคำขอ',
     footer_copyright: '© 2569 บริษัท ไทยแฟนซีการทอ จำกัด ประกาศขายทรัพย์สิน'
   },
 
@@ -240,13 +240,13 @@ const i18n = {
     location_note: '注：前往素万那普机场和林查班港可经由南部环城公路（Kanchanaphisek）绕过曼谷市区。',
     contact_title: '联系方式',
     contact_sub: '如需索取文件、安排实地参观或进一步了解详情，请直接联系业主。',
-    contact_note: '请注明您咨询的是沙没萨空府的泰国织布工厂。',
+    subject_label: '建议邮件主题：',
+    subject_text: '询价 – 沙没萨空府泰国织布工厂',
     contact_commission_note: '佣金：成交价3%，由卖方支付。过户费按土地部评估价由卖方承担。',
     buyer_notes_title: '买方须知',
-    buyer_note_1: '建议买方在购买前，就产权状态、抵押情况、建筑许可证及经营许可证向土地部及相关政府部门进行独立核实。',
-    buyer_note_2: '银行评估（2021年6月）系为信贷审批目的委托进行。需要最新评估报告的买方应自行委托独立评估师。',
+    buyer_note_2: '银行评估（2021年6月）系为信贷审批目的委托进行。',
     buyer_note_3: '距离及汇率均为近似值。汇率参考2026年5月数据，可能随时变动。',
-    buyer_note_4: '相关文件包括土地证（Chanote）、银行评估报告、出售条款说明及工厂平面图，可应书面请求提供。',
+    buyer_note_4: '相关文件包括土地证（Chanote）、银行评估报告、出售条款说明及工厂平面图，可应请求提供。',
     footer_copyright: '© 2026 Thai Fancy Weaving Co., Ltd. 房产挂牌信息。'
   }
 };

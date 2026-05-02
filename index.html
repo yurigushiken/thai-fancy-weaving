@@ -9,7 +9,7 @@
   <meta property="og:description" content="11 Rai 1 Ngan 13 Sq.Wah. Setthakit 1 Road, Krathum Baen. Ror Ngor 4 licence. 130,000,000 THB.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Noto+Serif+Thai:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,8 +20,8 @@
     <span class="nav-brand" data-i18n="nav_title">Thai Fancy Weaving — For Sale</span>
     <div class="lang-toggle">
       <button class="lang-btn" id="lang-th" onclick="setLang('th')">TH</button>
-      <button class="lang-btn active" id="lang-en" onclick="setLang('en')">EN</button>
       <button class="lang-btn" id="lang-zh" onclick="setLang('zh')">中文</button>
+      <button class="lang-btn active" id="lang-en" onclick="setLang('en')">EN</button>
     </div>
   </div>
 </nav>
@@ -45,8 +45,7 @@
       </div>
       <div class="contact-quick">
         <div class="cq-label" data-i18n="contact_email_label">Contact</div>
-        <a href="mailto:Chatchai319@icloud.com" class="cq-email">Chatchai319@icloud.com</a>
-        <a href="#contact" class="btn-enquire" data-i18n="hero_cta">Send Enquiry</a>
+        <span class="cq-email">Chatchai319@icloud.com</span>
       </div>
     </div>
 
@@ -188,16 +187,19 @@
     <h2 class="section-title" data-i18n="location_title">Location</h2>
     <p class="section-note" data-i18n="location_note_intro">Coordinates: 13.673694, 100.28424 — Setthakit 1 Road, Tha Mai, Krathum Baen, Samut Sakhon.</p>
   </div>
-  <div class="map-wrapper">
-    <iframe
-      src="https://maps.google.com/maps?q=13.673694,100.28424&z=11&output=embed"
-      width="100%"
-      height="420"
-      style="border:0;"
-      allowfullscreen=""
-      loading="lazy"
-      title="Thai Fancy Weaving Factory — Map">
-    </iframe>
+  <div class="container">
+    <div class="map-container">
+      <div class="map-overlay"></div>
+      <iframe
+        src="https://maps.google.com/maps?q=13.673694,100.28424&z=11&output=embed"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        title="Thai Fancy Weaving Factory — Map">
+      </iframe>
+    </div>
   </div>
   <div class="container location-distances">
     <h3 class="subsection-title" data-i18n="distance_title">Approximate Driving Distances</h3>
@@ -244,10 +246,13 @@
     <div class="contact-card">
       <div class="contact-row">
         <span class="contact-lbl" data-i18n="contact_email_label">Email</span>
-        <a href="mailto:Chatchai319@icloud.com" class="contact-val">Chatchai319@icloud.com</a>
+        <span class="contact-val">Chatchai319@icloud.com</span>
       </div>
     </div>
-    <p class="section-note" data-i18n="contact_note">Please state that you are enquiring about the Thai Fancy Weaving factory in Samut Sakhon.</p>
+    <div class="subject-suggestion">
+      <span class="subject-label" data-i18n="subject_label">Suggested subject line:</span>
+      <span class="subject-text" data-i18n="subject_text">Thai Fancy Weaving Factory, Samut Sakhon – Enquiry</span>
+    </div>
     <p class="section-note" data-i18n="contact_commission_note">Commission: 3% of sale price, paid by seller. Transfer fees paid by seller at Land Department appraisal rate.</p>
   </div>
 </section>
@@ -257,10 +262,9 @@
   <div class="container">
     <h2 class="section-title" data-i18n="buyer_notes_title">Buyer Notes</h2>
     <ul class="buyer-notes-list">
-      <li data-i18n="buyer_note_1">Buyers are advised to independently verify title status, encumbrances, building permits, and operational licences with the Land Department and relevant government authorities prior to purchase.</li>
-      <li data-i18n="buyer_note_2">The bank valuation (June 2021) was commissioned for credit assessment purposes. Buyers requiring a current appraisal should commission an independent one.</li>
+      <li data-i18n="buyer_note_2">The bank valuation (June 2021) was commissioned for credit assessment purposes.</li>
       <li data-i18n="buyer_note_3">Distances and exchange rates are approximate. Exchange rates are based on May 2026 rates and are subject to change.</li>
-      <li data-i18n="buyer_note_4">Documentation including the title deed (Chanote), bank valuation report, sale terms sheet, and factory floor plan are available upon written request.</li>
+      <li data-i18n="buyer_note_4">Documentation including the title deed (Chanote), bank valuation report, sale terms sheet, and factory floor plan are available upon request.</li>
     </ul>
   </div>
 </section>

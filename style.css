@@ -91,15 +91,6 @@ body {
   padding: 2.5rem 0 2rem;
 }
 
-.listing-type {
-  display: inline-block;
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--text-3);
-  margin-bottom: 0.75rem;
-}
 
 #listing-header h1 {
   font-size: clamp(1.5rem, 3vw, 2rem);
@@ -540,7 +531,7 @@ section { padding: 3rem 0; }
 .buyer-notes-list li:last-child { border-bottom: none; }
 
 .buyer-notes-list li::before {
-  content: '—';
+  content: '-';
   position: absolute;
   left: 0;
   color: var(--border);
